@@ -15,54 +15,69 @@
     background-image: radial-gradient(at top, #141920, #0b0e13);
 }
 
+.left-arrow-button {
+    width: 10vw;
+    height: 10vw;
+    position: absolute;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    top: 5vh;
+    left: 8vw;
+    background-color: transparent;
+    border: none;
+}
+
+.left-arrow {
+    width: 6vw;
+}
+
 .main-box {
     border-radius: 1px;
     box-shadow: 0px 0px 30px #0b0e13;
     width: 97%;
     height: 98%;
-    position: relative;
+    position: absolute;
     display: flex;
     flex-direction: column;
     align-items: center;
 }
 
-.title-box {
-    top: 20vh;
+.upper-box {
+    width: 80%;
+    height: 80vh;
+    top: 12vh;
     position: absolute;
     display: flex;
     flex-direction: column;
     align-items: center;
+    justify-content: space-around;
     color: #b6b6b6;
 }
 
 .title {
-    align-items: center;
     font-family:Georgia, 'Times New Roman', Times, serif;
-    font-size: 13vw;
-    margin-bottom: 1vh;
+    font-size: 5.5vw;
 }
 
 .description-text {
-    align-items: center;
     font-family:Georgia, 'Times New Roman', Times, serif;
-    font-size: 3vw;
+    font-size: 5vw;
 }
 
-.play-button-box {
-    top: 56vh;
-    position: absolute;
+.button-box {
     display: flex;
+    height: 25vh;
+    width: 100%;
     flex-direction: column;
-    align-items: center;
-    color: #b6b6b6;
+    justify-content: space-around;
 }
 
-.play-button {
-    width: 45vw;
-    height: 7vh;
+.decision {
+    height: 10vh;
     background-color: #0b0e13;
     color: #b6b6b6;
     font-family: Georgia, 'Times New Roman', Times, serif;
-    font-size: 6vw;
+    font-size: 4vw;
     border-radius: 3px;
 }
