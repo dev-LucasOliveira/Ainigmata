@@ -1,0 +1,90 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.page {
+    width: 100vw;
+    height: 100vh;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-image: radial-gradient(at top, #141920, #0b0e13);
+}
+
+.left-arrow-button {
+    width: 10vw;
+    height: 10vw;
+    position: absolute;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    top: 5vh;
+    left: 8vw;
+    background-color: transparent;
+    border: none;
+}
+
+.left-arrow {
+    width: 6vw;
+}
+
+.main-box {
+    border-radius: 1px;
+    box-shadow: 0px 0px 30px #0b0e13;
+    width: 97%;
+    height: 98%;
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.upper-text-box {
+    width: 80%;
+    height: 80vh;
+    top: 12vh;
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    color: #b6b6b6;
+}
+
+.title {
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    font-size: 30px;
+}
+
+.description-text {
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    font-size: 16px;
+}
+
+.airplane {
+    position: absolute;
+    top: 45vh;
+    left: 55vw;
+    width: 50px;
+}
+
+.right-arrow-button {
+    width: 10vw;
+    height: 10vw;
+    position: absolute;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    bottom: 5vh;
+    right: 8vw;
+    background-color: transparent;
+    border: none;
+}
+
+.right-arrow {
+    width: 6vw;
+    rotate: 180deg;
+}
